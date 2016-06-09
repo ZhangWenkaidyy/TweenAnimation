@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/button_alpha"
+            android:layout_width="0dp"
+           android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:onClick="clickView"
+            android:text="透明" />
+        <Button
+            android:id="@+id/button_rotate"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:onClick="clickView"
+            android:text="旋转" />
+        <Button
+            android:id="@+id/button_scale"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:onClick="clickView"
+            android:text="缩放" />
+        <Button
+            android:id="@+id/button_translate"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:onClick="clickView"
+            android:text="平移" />
+        <Button
+            android:id="@+id/button_set"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:onClick="clickView"
+            android:text="集合" />
+
+        </LinearLayout>
+    <ImageView
+        android:id="@+id/imageView_main"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+android:src="@drawable/abc"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
